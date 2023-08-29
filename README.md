@@ -21,4 +21,4 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - typedef struct binary_tree_s heap_t;
 
 ## Author
-> [Joel Omewah](https://github.com/Omewah)
+- [Joel Omewah](https://github.com/Omewah)
