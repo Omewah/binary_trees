@@ -32,7 +32,7 @@ int next_node(bst_t *root)
 {
 	int a = 0;
 
-	a = successor(root->right);
+	a = current_node(root->right);
 	root->n = a;
 	return (a);
 }
