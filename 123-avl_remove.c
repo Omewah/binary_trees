@@ -5,7 +5,7 @@
  * @tree: a double pointer to the root node of the tree
  * Return: the balanced tree
  */
-void bal(avl_t **tree)
+void tree_balance(avl_t **tree)
 {
 	int a;
 
@@ -13,8 +13,8 @@ void bal(avl_t **tree)
 		return;
 	if ((*tree)->left == NULL && (*tree)->right == NULL)
 		return;
-	bal(&(*tree)->left);
-	bal(&(*tree)->right);
+	tree_balance(&(*tree)->left);
+	tree_balance(&(*tree)->right);
 	a = binary_tree_balance((const binary_tree_t *)*tree);
 	if (a > 1)
 		*tree = binary_tree_rotate_right((binary_tree_t *)*tree);
