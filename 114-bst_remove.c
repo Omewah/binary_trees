@@ -25,7 +25,7 @@ int current_node(bst_t *root)
 }
 /**
  * next_node - gets the next active node of the tree
- * @root: a pointer to the root node of the tree 
+ * @root: a pointer to the root node of the tree
  * Return: the value of the node
  */
 int next_node(bst_t *root)
@@ -37,9 +37,9 @@ int next_node(bst_t *root)
 	return (a);
 }
 /**
- *remove_node - frees a node
- *@root: a pointer to the root node of the tree 
- *Return: 0 if no child
+ * remove_node - frees a node
+ * @root: a pointer to the root node of the tree
+ * Return: 0 if no child
  */
 int remove_node(bst_t *root)
 {
